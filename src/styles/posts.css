@@ -1,0 +1,249 @@
+@font-face {
+    font-family: main;
+    src: url('../pages/fonts/Hey Comic.ttf');
+}
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.eh{
+    width: 300px;
+    height: 100px;
+    background-color: #48CFCB;
+    text-align: center;
+    font-family: main;
+    font-size: 50px;
+    color: #F5F5F5;
+    margin: auto;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 10px solid #48CFCB;
+    margin-top: 5%;
+    transition: 0.5s;
+}
+.eh:hover{
+    background-color: #fff;
+    color: #48CFCB;
+}
+.eh p{
+    margin-top: 20px;
+}
+.head{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: main;
+}
+.posts-container{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    text-decoration: none;
+}
+.post-container{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: auto;
+
+}
+.upside-container{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #48CFCB;
+}
+.userName-container{
+    width: 30%;
+    height: 100%;
+}
+.userName-box{
+    width: 100%;
+    height: 60%;
+    font-size: 20px;
+}
+.userName-box p{
+    text-align: center;
+    padding-top: 3%;
+    font-family: main;
+    color: #424242;
+}
+.name-box{
+    width: 100%;
+    height: 40%;
+    font-size: 15px;
+    position: relative;
+    top: -25%;
+}
+.name-box p{
+    text-align: center;
+    padding-top: 2%;
+    font-family: main;
+    color: #424242;
+    opacity: 50%;
+}
+.time-container{
+    position:relative;
+    top: -100%;
+    float: right;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-family: main;
+    color: #424242;
+}
+.time-container p{
+    padding-top: 13%;
+}
+.downside-container{
+    width: 100%;
+    height: auto;
+    background-color: #229799;
+    position: relative;
+    top: -20px;
+
+}
+.title-container{
+    width: 100%;
+    height: auto;
+
+}
+.title-container p{
+    font-family: main;
+    font-size: 20px;
+    padding-left: 0.5%;
+    color: #F5F5F5;
+}
+.body-container{
+    width: 100%;
+    height: auto;
+    color: #F5F5F5;
+    font-size: 18px;
+    font-family: main;
+    opacity: 90%;
+    margin-top: -3%;
+}
+.info-container{
+    width: 100%;
+    height: 40px;
+    background-color: #1a1a1a;
+    background-color: #48CFCB;
+    cursor: pointer;
+}
+.status-container{
+    height: 100%;
+    width: 30%;
+    position: relative;
+}
+.views-box{
+    height: 100%;
+    width: 30%;
+    color: #F5F5F5;
+    font-family: main;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+}
+.views-box p{
+    padding-top: 10%;
+}
+.likes-box{
+    height: 100%;
+    width: 40%;
+    color: #F5F5F5;
+    font-family: main;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -150%;
+    left: 30%;
+}
+.likes-box p{
+    padding-top: 10%;
+}
+.comments-box{
+    height: 100%;
+    width: 40%;
+    color: #F5F5F5;
+    font-family: main;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -300%;
+    left: 65%;
+}
+.comments-box p{
+    padding-top: 10%;
+}
+
+.btn-container{
+    height: 80%;
+    width: 20%;
+    float: right;
+    position: relative;
+    left: -5%;
+    top: -90%;
+    background-color: #229799;
+    border-radius: 100px;
+    color: #F5F5F5;
+    text-align: center;
+    font-family: main;
+    transition: 0.5s;
+}
+.btn-container:hover{
+    background-color: #F5F5F5;
+    color: #229799;
+    top: -100%;
+}
+.btn-container a{
+    position: relative;
+    top: 15%;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+.btn-container a:hover{
+    color: #229799;
+}
+.comments-container{
+    width: 100%;
+    height: auto;
+    background-color: #48CFCB;
+    position: relative;
+    top: -46px;
+}
+.comment-container{
+    text-align: center;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background-color: #229799;
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: main;
+    color: #383838;
+}
+.porkon1{
+    width: 100%;
+    height: 50px;
+    background-color: #48CFCB;
+    position: relative;
+    top: -46px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.porkon2{
+    width: 100%;
+    height: 50px;
+    background-color: #48CFCB;
+    position: relative;
+    top: -38px;
+}
